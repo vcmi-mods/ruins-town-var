@@ -1,0 +1,149 @@
+{
+	"core:creatureGeneratorCommon": {
+		"base": {
+			"base": {
+				"mask": [
+					"VVV",
+					"VVV",
+					"VBA"
+				]
+			},
+			"sounds": {
+				"ambient": [
+					"LOOPSWOR"
+				],
+				"visit": [
+					"MILITARY"
+				]
+			}
+		},
+		"types": {
+			"rn_creature_lvl1_dwelling": {
+				"name": "Shirefolk",
+				"creatures": [
+					[
+						"rn_creature_lvl1"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPELF"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl1"
+					}
+				}
+			},
+			"rn_creature_lvl2_dwelling": {
+				"name": "Scalecrest Roost",
+				"creatures": [
+					[
+						"rn_creature_lvl2"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPCAVE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl2"
+					}
+				}
+			},
+			"rn_creature_lvl3_dwelling": {
+				"name": "Trapcrafters Headquarter",
+				"creatures": [
+					[
+						"rn_creature_lvl3"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDWAR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl3"
+					}
+				}
+			},
+			"rn_creature_lvl4_dwelling": {
+				"name": "Old spring",
+				"creatures": [
+					[
+						"rn_creature_lvl4"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPHYDR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl4"
+					}
+				}
+			},
+			"rn_creature_lvl5_dwelling": {
+				"name": "High Altar",
+				"creatures": [
+					[
+						"rn_creature_lvl5"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPAIR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl5"
+					}
+				}
+			},
+			"rn_creature_lvl6_dwelling": {
+				"name": "River forest",
+				"creatures": [
+					[
+						"rn_creature_lvl6"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPBEHE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl6"
+					}
+				}
+			},
+			"rn_creature_lvl7_dwelling": {
+				"name": "Stonehenge",
+				"creatures": [
+					[
+						"rn_creature_lvl7"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPEART"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "ruins/map/lvl7"
+					}
+				}
+			}
+		}
+	}
+}

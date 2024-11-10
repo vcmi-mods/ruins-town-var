@@ -1,0 +1,115 @@
+{
+	"rn_creature_lvl6": {
+		"name": {
+			"singular": "Wendigo",
+			"plural": "Wendigos"
+		},
+		"upgrades": [
+			"rn_creature_lvl6_up"
+		],
+		"level": 6,
+		"special": false,
+		"faction": "ruins",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 790
+		},
+		"fightValue": 1170,
+		"aiValue": 1400,
+		"growth": 2,
+		"attack": 15,
+		"defense": 11,
+		"hitPoints": 70,
+		"shots": 0,
+		"speed": 8,
+		"damage": {
+			"min": 15,
+			"max": 20
+		},
+		"horde" : 2,
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 12,
+			"min": 5
+		},
+		"doubleWide": false,
+		"abilities": {
+			"fearless": {
+				"type": "FEARLESS"
+			},
+			"enemyDefenceReduction":
+			{
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 10
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "ruins/creatures/battle/lvl6.def",
+			"map": "ruins/creatures/adventure/lvl6.def",
+			"iconSmall": "ruins/creatures/icon/lvl6.bmp",
+			"iconLarge": "ruins/creatures/portrait/lvl6.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1.1,
+				"idle": 10.00,
+				"attack": 1.3
+			}
+		},
+		"sound": {
+			"attack": "DEVLATTK.wav",
+			"defend": "SHDMDFND.wav",
+			"killed": "SHDMKILL.wav",
+			"move": "SHDMMOVE.wav",
+			"wince": "SHDMWNCE.wav"
+		}
+	}
+}

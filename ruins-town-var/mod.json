@@ -1,0 +1,110 @@
+{
+	"name": "Ruins town variation",
+	"description": "This mod uses new Ruins town line-up but restores old townscreen. Mod is incompatible with original Ruins.",
+	"author": "Fiorin, Stefan Ciobanu, Валентин",
+	"contact": "https://fior.in",
+	"version": "1.0.1",
+	"modType": "Town",
+	"conflicts" : [ "ruins-town "],
+	"depends": [
+		"hota.cove",
+		"hota.interference"
+	],
+	"compatibility": {
+		"min": "1.6.0"
+	},
+	"german": {
+		"name": "Ruinen",
+		"description": "Ruinen Stadt",
+		"translations": [
+			"translation/ruins/german.json"
+		]
+	},
+	"chinese" : {
+		"name" : "遗迹",
+		"description" : "遗迹有着浓厚的原始氛围，兵种主要来自凯尔特神话和阿尔冈昆传说。更多信息请访问http://heroescommunity.com/viewthread.php3?TID=44951进行反馈。",
+		"translations" : [
+			"translation/ruins/chinese.json"
+		]
+	},
+	"polish": {
+		"name": "Ruiny - wariacja",
+		"description": "Ten mod używa najnowszego line-upu z Ruins ale przywraca stary ekran miasta. Mod jest niekompatybilny z oryginalnymi Ruinami.",
+		"translations": [
+			"translation/ruins/polish.json"
+		]
+	},
+	"russian": {
+		"name": "Руины",
+		"description": "Новый город Руины от Tok, в основе которого лежит кельтская мифология. Подробнее на http://heroescommunity.com/viewthread.php3?TID=44951",
+		"translations": [
+			"translation/ruins/russian.json"
+		]
+	},
+	"changelog": {
+	
+		"1.0.1": [ "Update to vcmi-1.6 format"],
+		"1.0.0": [ "Initial release"]
+	},
+	"factions": [
+		"config/ruins/town/faction.json",
+		"config/ruins/town/buildings.json",
+		"config/ruins/town/structures.json",
+		"config/ruins/town/siege.json",
+		"config/ruins/town/spells.json",
+		"config/ruins/town/puzzle.json"
+	],
+	"creatures": [
+		"config/ruins/creatures/lvl1.json",
+		"config/ruins/creatures/lvl1_up.json",
+		"config/ruins/creatures/lvl2.json",
+		"config/ruins/creatures/lvl2_up.json",
+		"config/ruins/creatures/lvl3.json",
+		"config/ruins/creatures/lvl3_up.json",
+		"config/ruins/creatures/lvl4.json",
+		"config/ruins/creatures/lvl4_up.json",
+		"config/ruins/creatures/lvl5.json",
+		"config/ruins/creatures/lvl5_up.json",
+		"config/ruins/creatures/lvl6.json",
+		"config/ruins/creatures/lvl6_up.json",
+		"config/ruins/creatures/lvl7.json",
+		"config/ruins/creatures/lvl7_up.json",
+		"config/ruins/creatures/alternate.json",
+		"config/ruins/creatures/alternate_up.json",
+		"config/ruins/creatures/cm3.json",
+		"config/ruins/creatures/cm3_up.json",
+		"config/ruins/creatures/tracker.json"
+	],
+	"heroClasses": [
+		"config/ruins/classes/might.json",
+		"config/ruins/classes/magic.json"
+	],
+	"heroes": [
+		"config/ruins/heroes/bellona.json",
+		"config/ruins/heroes/gobni.json",
+		"config/ruins/heroes/grimm.json",
+		"config/ruins/heroes/gwyn.json",
+		"config/ruins/heroes/herian.json",
+		"config/ruins/heroes/horae.json",
+		"config/ruins/heroes/hughes.json",
+		"config/ruins/heroes/huldra.json",
+		"config/ruins/heroes/kali.json",
+		"config/ruins/heroes/mogh.json",
+		"config/ruins/heroes/myra.json",
+		"config/ruins/heroes/nodens.json",
+		"config/ruins/heroes/rhea.json",
+		"config/ruins/heroes/thar.json",
+		"config/ruins/heroes/neit.json",
+		"config/ruins/heroes/woden.json"
+	],
+	"objects": [
+		"config/ruins/dwellings.json"
+	],
+	"spells": [
+		"config/spells/grapple/grapple.json",
+		"config/spells/dodge/dodge.json"
+	],
+	"skills": [
+		"config/skills/evasion.json"
+	]
+}
